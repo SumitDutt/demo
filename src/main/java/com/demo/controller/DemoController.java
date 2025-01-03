@@ -13,6 +13,6 @@ public class DemoController {
     }
     @PostMapping("/hello")
     public String helloPost(@RequestBody String name) {
-        return String.format("Hello %s!", name);
+        return String.format("Hello !", name);
     }
 }
