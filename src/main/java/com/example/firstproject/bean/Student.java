@@ -23,11 +23,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getCotact_no() {
+    public String getContact_no() {
         return cotact_no;
     }
 
-    public void setCotact_no(String cotact_no) {
+    public void setContact_no(String cotact_no) {
         this.cotact_no = cotact_no;
     }
 
@@ -46,5 +46,6 @@ public class Student {
     public void setLocation(String location) {
         this.location = location;
     }
+
 
 }
